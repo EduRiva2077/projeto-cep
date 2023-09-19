@@ -1,0 +1,65 @@
+/* Estilo do projeto */
+/* Ícones do Bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+/* Fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+form{
+    width: 30%;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.4);
+}
+
+h1{
+    color: #fff;
+    text-align: 100vh;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+}
+button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 150px;
+    margin-bottom: 16px;
+}
+
+button:hover{
+    background-color: #ccc;
+    color: #007bff;
+}
+
+input[type="text"], select{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#resultadoCep{
+    margin: 16px;
+    color: #dc345d
+}
